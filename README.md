@@ -9,15 +9,23 @@ This project implements a simple video streaming server using a Raspberry Pi cam
 
 ## Prerequisites
 
-- A Raspberry Pi with a camera module configured.
-- Raspberry Pi OS (Bullseye or later is recommended).
-- Python 3.x installed.
-- [Picamera2](https://github.com/raspberrypi/picamera2) installed (check Raspberry Pi documentation for installation details).
+- **Hardware:**  
+  - Raspberry Pi 3B+  
+  - Arducam 8MP IMX219 camera (ensure it is properly connected and configured)
+
+- **Operating System:**  
+  - Bookworm (or Raspberry Pi OS based on Bookworm)
+
+- **Software:**  
+  - Python 3.x installed  
+  - [Picamera2](https://github.com/raspberrypi/picamera2) installed  
+    > **Note:** Installation instructions for Picamera2 and any additional drivers for the Arducam can be found in the official documentation or from the Arducam support pages.
 
 ## Installation
 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/kabhishek3001/raspberrypi-video-stream.git
-   cd raspberrypi-video-stream
+   git clone https://github.com/kabhishek3001/raspberry-pi-stream.git
+   cd raspberry-pi-stream
+   pip install -r requirements.txt
