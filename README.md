@@ -26,6 +26,6 @@ This project implements a simple video streaming server using a Raspberry Pi cam
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/kabhishek3001/raspberry-pi-stream.git
+   git clone https://github.com/abhiinrobotics/raspberry-pi-stream.git
    cd raspberry-pi-stream
    pip install -r requirements.txt
